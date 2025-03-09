@@ -12,3 +12,6 @@ Angka_Pertama = 31
 Angka_Kedua = 65
 Hasil = Angka_Pertama ** Angka_Kedua
 print(Hasil)
+
+
+#test
