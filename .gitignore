@@ -1,2 +1,3 @@
 Sttss.txt        # Mengabaikan file bernama 'nama_file.txt'
 EmailAutomatic.exe     # Mengabaikan folder bernama 'folder_penting' dan semua isinya
+.vscode/        # Mengabaikan semua file dan folder yang ada di dalam folder bernama '.vscode'
