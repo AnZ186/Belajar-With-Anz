@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="navbar">
+            <nav>
+                <div class="navbar">
+                  <div class="logo"><a href="/">AnZ</a></div>
+                  <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Category">Category</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Feedback">Feedback</a></li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        <div class="photo">
+            <h1>{{ title }}</h1>
+            {% for post in post %}
+            <h2>{{ post.title }}</h2>
+            <p>{{ Konten }}</p>
+            <a href="/post/{{ post.id}}">Baca Post Saya</a>
+            {% endfor %}
+        </div>
+        <div class="about"></div>
+        <div class="lokasi"></div>
+        <div class="test"></div>
+        <div class="test2"></div>
+    </div>
+</body>
+</html>

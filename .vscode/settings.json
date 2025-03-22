@@ -1,4 +1,8 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 0,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
