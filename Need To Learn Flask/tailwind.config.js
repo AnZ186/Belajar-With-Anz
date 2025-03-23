@@ -4,7 +4,15 @@ module.exports = {
     "./templates/*"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'darkpink': '#E9456C',
+        'darkblue': '#052842',
+      },
+      fontFamily: {
+        Winky: ['Winky Sans', ]
+      }
+    },
   },
   plugins: [],
 }
